@@ -1,3 +1,10 @@
+
+> **PERGUNTA**: A página principal (tarefas/page.tsx) deve ser um Server Component ou Client Component? **Por quê?**
+> Deve ser um Server Component, pois é onde você pode buscar dados e isso é inteiramente executado no servidor. Já o Client Component é habilitado quando se é usado o 'use client' e é enviado para o navegador (cliente), ele é usado quando é necessário usar componentes específicos do navegador e onde precisa de interatividade, podendo também utilizar o React.js.
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
